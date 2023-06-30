@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.minimarket.model.Cliente;
 
-@Repository
+@Repository 
 public interface IClienteRepository extends JpaRepository<Cliente, Integer>{
 
 }

@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.minimarket.model.Cliente;
-import com.minimarket.model.Proveedor;
 import com.minimarket.serviceimp.ClienteServiceImp;
-import com.minimarket.serviceimp.ProveedorServiceImp;
 import com.minimarket.utils.NotFoundException;
 
 @RestController
